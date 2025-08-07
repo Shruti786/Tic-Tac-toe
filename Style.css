@@ -1,0 +1,68 @@
+*{
+    margin :0;
+    padding:0;
+
+}
+/* refreshing summer */
+body{
+    background-color: #023047;
+    color:#8ecae6;
+    text-align: center;
+    font-family: Arial;
+
+}
+.container{
+    /* adding dynamic height: vh=> viewport height */
+    height:70vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    /* vmin=> 1% of the view portion  */
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #ffb703;
+    color:#023047;
+   border: 2px solid white;
+   border-radius: 1rem;
+   font-size: 7vmin;   
+}
+
+#reset{
+    height:5vmin;
+    width:20vmin;
+    font-size: 2vmin;
+    background-color: #8ecae6;
+    border-radius: 0.4rem;
+    border: 1px solid white;
+    font-family: Arial;    
+}
+
+#New{
+    height:5vmin;
+    width:20vmin;
+    font-size: 2vmin;
+    background-color: #8ecae6;
+    border-radius: 0.4rem;
+    border: 1px solid white;
+    font-family: Arial;    
+}
+.msg-container{
+    color:#ffb703;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 7vmin;
+}
+.hide{
+    display: none;
+}
